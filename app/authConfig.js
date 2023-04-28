@@ -10,7 +10,7 @@ const msalConfig = {
         // Full directory URL, in the form of https://login.microsoftonline.com/<tenant-id>
         authority: "https://login.microsoftonline.com/consumers",
         // Full redirect URL, in form of http://localhost:3000
-        redirectUri: "http://localhost:3000/",
+        redirectUri: "https://opdgerety.github.io/microsoftAuth/app/",
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
